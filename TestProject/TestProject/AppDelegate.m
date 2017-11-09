@@ -10,7 +10,7 @@
 #import "Reachability.h"
 #import "LWViewModelServicesImpl.h"
 #import "LWNavigationControllerStack.h"
-#import "LWHomepageViewModel.h"
+#import "CIBTabBarViewModel.h"
 
 @interface AppDelegate ()
 
@@ -57,7 +57,7 @@
 }
 
 - (LWViewModel *)createInitialViewModel {
-    return [[LWHomepageViewModel alloc] initWithServices:self.services params:nil];
+    return [[CIBTabBarViewModel alloc] initWithServices:self.services params:nil];
 }
 
 - (void)configureAppearance {

@@ -40,6 +40,17 @@
 		18B375FD1FB2EBC1005A4969 /* LWViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375FC1FB2EBC1005A4969 /* LWViewModel.m */; };
 		18BBC6CD1FB3F76C0029A754 /* CIBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBC6CC1FB3F76C0029A754 /* CIBTabBarController.m */; };
 		18BBC6D01FB3F8090029A754 /* CIBTabBarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBC6CF1FB3F8090029A754 /* CIBTabBarViewModel.m */; };
+		18BBC6D31FB42AE00029A754 /* LWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBC6D21FB42AE00029A754 /* LWTableViewController.m */; };
+		18BBC6D61FB42B9C0029A754 /* LWTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBC6D51FB42B9C0029A754 /* LWTableViewModel.m */; };
+		18BBC6D91FB42F590029A754 /* CIBHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBC6D81FB42F590029A754 /* CIBHomePageViewController.m */; };
+		18BBC6DC1FB42F8C0029A754 /* CIBHomePageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBC6DB1FB42F8C0029A754 /* CIBHomePageViewModel.m */; };
+		18BBC6E81FB430FD0029A754 /* CIBSupermarketViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBC6E71FB430FD0029A754 /* CIBSupermarketViewModel.m */; };
+		18BBC6EE1FB4315A0029A754 /* CIBSupermarketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBC6ED1FB4315A0029A754 /* CIBSupermarketViewController.m */; };
+		18BBC6F11FB4317A0029A754 /* CIBWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBC6F01FB4317A0029A754 /* CIBWalletViewController.m */; };
+		18BBC6F41FB4318E0029A754 /* CIBAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBC6F31FB4318E0029A754 /* CIBAccountViewController.m */; };
+		18BBC6F71FB431C80029A754 /* CIBWalletViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBC6F61FB431C80029A754 /* CIBWalletViewModel.m */; };
+		18BBC6FA1FB431DE0029A754 /* CIBAccountViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBC6F91FB431DE0029A754 /* CIBAccountViewModel.m */; };
+		18BBC6FD1FB43B2A0029A754 /* LWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBC6FC1FB43B2A0029A754 /* LWTabBar.m */; };
 		18E4360A1FB2F3C2002CDDCA /* LWNavigationControllerStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E436091FB2F3C2002CDDCA /* LWNavigationControllerStack.m */; };
 		18E4360E1FB2F457002CDDCA /* LWRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4360D1FB2F457002CDDCA /* LWRouter.m */; };
 		18E436111FB2F503002CDDCA /* LWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E436101FB2F503002CDDCA /* LWViewController.m */; };
@@ -124,6 +135,28 @@
 		18BBC6CC1FB3F76C0029A754 /* CIBTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIBTabBarController.m; sourceTree = "<group>"; };
 		18BBC6CE1FB3F8090029A754 /* CIBTabBarViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIBTabBarViewModel.h; sourceTree = "<group>"; };
 		18BBC6CF1FB3F8090029A754 /* CIBTabBarViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIBTabBarViewModel.m; sourceTree = "<group>"; };
+		18BBC6D11FB42AE00029A754 /* LWTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWTableViewController.h; sourceTree = "<group>"; };
+		18BBC6D21FB42AE00029A754 /* LWTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWTableViewController.m; sourceTree = "<group>"; };
+		18BBC6D41FB42B9C0029A754 /* LWTableViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWTableViewModel.h; sourceTree = "<group>"; };
+		18BBC6D51FB42B9C0029A754 /* LWTableViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWTableViewModel.m; sourceTree = "<group>"; };
+		18BBC6D71FB42F590029A754 /* CIBHomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIBHomePageViewController.h; sourceTree = "<group>"; };
+		18BBC6D81FB42F590029A754 /* CIBHomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIBHomePageViewController.m; sourceTree = "<group>"; };
+		18BBC6DA1FB42F8C0029A754 /* CIBHomePageViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIBHomePageViewModel.h; sourceTree = "<group>"; };
+		18BBC6DB1FB42F8C0029A754 /* CIBHomePageViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIBHomePageViewModel.m; sourceTree = "<group>"; };
+		18BBC6E61FB430FD0029A754 /* CIBSupermarketViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIBSupermarketViewModel.h; sourceTree = "<group>"; };
+		18BBC6E71FB430FD0029A754 /* CIBSupermarketViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIBSupermarketViewModel.m; sourceTree = "<group>"; };
+		18BBC6EC1FB4315A0029A754 /* CIBSupermarketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIBSupermarketViewController.h; sourceTree = "<group>"; };
+		18BBC6ED1FB4315A0029A754 /* CIBSupermarketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIBSupermarketViewController.m; sourceTree = "<group>"; };
+		18BBC6EF1FB4317A0029A754 /* CIBWalletViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIBWalletViewController.h; sourceTree = "<group>"; };
+		18BBC6F01FB4317A0029A754 /* CIBWalletViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIBWalletViewController.m; sourceTree = "<group>"; };
+		18BBC6F21FB4318E0029A754 /* CIBAccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIBAccountViewController.h; sourceTree = "<group>"; };
+		18BBC6F31FB4318E0029A754 /* CIBAccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIBAccountViewController.m; sourceTree = "<group>"; };
+		18BBC6F51FB431C80029A754 /* CIBWalletViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIBWalletViewModel.h; sourceTree = "<group>"; };
+		18BBC6F61FB431C80029A754 /* CIBWalletViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIBWalletViewModel.m; sourceTree = "<group>"; };
+		18BBC6F81FB431DE0029A754 /* CIBAccountViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIBAccountViewModel.h; sourceTree = "<group>"; };
+		18BBC6F91FB431DE0029A754 /* CIBAccountViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIBAccountViewModel.m; sourceTree = "<group>"; };
+		18BBC6FB1FB43B2A0029A754 /* LWTabBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWTabBar.h; sourceTree = "<group>"; };
+		18BBC6FC1FB43B2A0029A754 /* LWTabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWTabBar.m; sourceTree = "<group>"; };
 		18E436081FB2F3C2002CDDCA /* LWNavigationControllerStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWNavigationControllerStack.h; sourceTree = "<group>"; };
 		18E436091FB2F3C2002CDDCA /* LWNavigationControllerStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWNavigationControllerStack.m; sourceTree = "<group>"; };
 		18E4360C1FB2F457002CDDCA /* LWRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWRouter.h; sourceTree = "<group>"; };
@@ -204,6 +237,14 @@
 				18B375F01FB2E792005A4969 /* BaseClass */,
 				18BBC6CE1FB3F8090029A754 /* CIBTabBarViewModel.h */,
 				18BBC6CF1FB3F8090029A754 /* CIBTabBarViewModel.m */,
+				18BBC6DA1FB42F8C0029A754 /* CIBHomePageViewModel.h */,
+				18BBC6DB1FB42F8C0029A754 /* CIBHomePageViewModel.m */,
+				18BBC6E61FB430FD0029A754 /* CIBSupermarketViewModel.h */,
+				18BBC6E71FB430FD0029A754 /* CIBSupermarketViewModel.m */,
+				18BBC6F51FB431C80029A754 /* CIBWalletViewModel.h */,
+				18BBC6F61FB431C80029A754 /* CIBWalletViewModel.m */,
+				18BBC6F81FB431DE0029A754 /* CIBAccountViewModel.h */,
+				18BBC6F91FB431DE0029A754 /* CIBAccountViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -293,6 +334,14 @@
 				18E436071FB2F3B4002CDDCA /* BaseClass */,
 				18BBC6CB1FB3F76C0029A754 /* CIBTabBarController.h */,
 				18BBC6CC1FB3F76C0029A754 /* CIBTabBarController.m */,
+				18BBC6D71FB42F590029A754 /* CIBHomePageViewController.h */,
+				18BBC6D81FB42F590029A754 /* CIBHomePageViewController.m */,
+				18BBC6EC1FB4315A0029A754 /* CIBSupermarketViewController.h */,
+				18BBC6ED1FB4315A0029A754 /* CIBSupermarketViewController.m */,
+				18BBC6EF1FB4317A0029A754 /* CIBWalletViewController.h */,
+				18BBC6F01FB4317A0029A754 /* CIBWalletViewController.m */,
+				18BBC6F21FB4318E0029A754 /* CIBAccountViewController.h */,
+				18BBC6F31FB4318E0029A754 /* CIBAccountViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -307,6 +356,8 @@
 		18B375CE1FB2E334005A4969 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				18BBC6FB1FB43B2A0029A754 /* LWTabBar.h */,
+				18BBC6FC1FB43B2A0029A754 /* LWTabBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -329,6 +380,8 @@
 				18B375F21FB2E7AD005A4969 /* LWViewModelServicesImpl.m */,
 				18B375FB1FB2EBC1005A4969 /* LWViewModel.h */,
 				18B375FC1FB2EBC1005A4969 /* LWViewModel.m */,
+				18BBC6D41FB42B9C0029A754 /* LWTableViewModel.h */,
+				18BBC6D51FB42B9C0029A754 /* LWTableViewModel.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -344,6 +397,8 @@
 				18E436131FB2F5AC002CDDCA /* LWNavigationController.m */,
 				18E436181FB2F8E2002CDDCA /* LWTabBarController.h */,
 				18E436191FB2F8E2002CDDCA /* LWTabBarController.m */,
+				18BBC6D11FB42AE00029A754 /* LWTableViewController.h */,
+				18BBC6D21FB42AE00029A754 /* LWTableViewController.m */,
 			);
 			path = BaseClass;
 			sourceTree = "<group>";
@@ -490,6 +545,7 @@
 			files = (
 				18E4360A1FB2F3C2002CDDCA /* LWNavigationControllerStack.m in Sources */,
 				18B375DD1FB2E334005A4969 /* UIButton+LWButton.m in Sources */,
+				18BBC6FD1FB43B2A0029A754 /* LWTabBar.m in Sources */,
 				18B375DB1FB2E334005A4969 /* UIAlertController+LWAlert.m in Sources */,
 				18E4361A1FB2F8E2002CDDCA /* LWTabBarController.m in Sources */,
 				18B375D71FB2E334005A4969 /* NSObject+LWObject.m in Sources */,
@@ -497,6 +553,9 @@
 				18B375D01FB2E334005A4969 /* CALayer+LWLayer.m in Sources */,
 				18B375D41FB2E334005A4969 /* NSDictionary+LWDictionary.m in Sources */,
 				18B375E01FB2E334005A4969 /* UIImage+WHImage.m in Sources */,
+				18BBC6F11FB4317A0029A754 /* CIBWalletViewController.m in Sources */,
+				18BBC6D91FB42F590029A754 /* CIBHomePageViewController.m in Sources */,
+				18BBC6F41FB4318E0029A754 /* CIBAccountViewController.m in Sources */,
 				18B375E11FB2E334005A4969 /* UIImageView+LWImageView.m in Sources */,
 				18BBC6D01FB3F8090029A754 /* CIBTabBarViewModel.m in Sources */,
 				18E4360E1FB2F457002CDDCA /* LWRouter.m in Sources */,
@@ -508,6 +567,7 @@
 				18B375E71FB2E334005A4969 /* UIView+LWView.m in Sources */,
 				18B375D81FB2E334005A4969 /* NSObject+LWRuntime.m in Sources */,
 				18B375DC1FB2E334005A4969 /* UIBarButtonItem+LWBarButtonItem.m in Sources */,
+				18BBC6FA1FB431DE0029A754 /* CIBAccountViewModel.m in Sources */,
 				18B375E41FB2E334005A4969 /* UIScrollView+LWScrollView.m in Sources */,
 				18B375EF1FB2E644005A4969 /* main.m in Sources */,
 				18B375F31FB2E7AD005A4969 /* LWViewModelServicesImpl.m in Sources */,
@@ -515,13 +575,19 @@
 				1819EF961FB2DD34001C6048 /* AppDelegate.m in Sources */,
 				18B375DF1FB2E334005A4969 /* UIDevice+LWDevice.m in Sources */,
 				18E436111FB2F503002CDDCA /* LWViewController.m in Sources */,
+				18BBC6D31FB42AE00029A754 /* LWTableViewController.m in Sources */,
+				18BBC6EE1FB4315A0029A754 /* CIBSupermarketViewController.m in Sources */,
+				18BBC6D61FB42B9C0029A754 /* LWTableViewModel.m in Sources */,
 				18B375FD1FB2EBC1005A4969 /* LWViewModel.m in Sources */,
 				18B375D31FB2E334005A4969 /* NSDate+LWDate.m in Sources */,
+				18BBC6E81FB430FD0029A754 /* CIBSupermarketViewModel.m in Sources */,
 				18E436141FB2F5AC002CDDCA /* LWNavigationController.m in Sources */,
 				18B375D51FB2E334005A4969 /* NSFileManager+LWFileManager.m in Sources */,
 				18B375D21FB2E334005A4969 /* NSArray+LWArray.m in Sources */,
 				18E436171FB2F70E002CDDCA /* LWError.m in Sources */,
 				18B375D61FB2E334005A4969 /* NSNumber+LWNumber.m in Sources */,
+				18BBC6F71FB431C80029A754 /* CIBWalletViewModel.m in Sources */,
+				18BBC6DC1FB42F8C0029A754 /* CIBHomePageViewModel.m in Sources */,
 				18B375E31FB2E334005A4969 /* UINavigationController+LWNavigationControllerViewController.m in Sources */,
 				18B375DA1FB2E334005A4969 /* NSTimer+LWTimer.m in Sources */,
 				18B375E81FB2E334005A4969 /* UIViewController+LWVC.m in Sources */,

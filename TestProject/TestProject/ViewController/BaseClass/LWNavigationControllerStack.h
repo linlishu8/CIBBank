@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol LWViewModelServices;
+
 @interface LWNavigationControllerStack : NSObject
 
 - (instancetype)initWithServices:(id<LWViewModelServices>)services;
