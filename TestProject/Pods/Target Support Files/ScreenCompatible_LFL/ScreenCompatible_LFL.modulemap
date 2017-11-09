@@ -1,6 +1,0 @@
-framework module ScreenCompatible_LFL {
-  umbrella header "ScreenCompatible_LFL-umbrella.h"
-
-  export *
-  module * { export * }
-}
