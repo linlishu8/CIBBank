@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1819EF961FB2DD34001C6048 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819EF951FB2DD34001C6048 /* AppDelegate.m */; };
+		1819EF9E1FB2DD34001C6048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1819EF9D1FB2DD34001C6048 /* Assets.xcassets */; };
+		18521DC61FB2FC6500B0A15E /* LWHomepageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18521DC51FB2FC6500B0A15E /* LWHomepageViewModel.m */; };
+		18521DC91FB2FD3900B0A15E /* LWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18521DC81FB2FD3900B0A15E /* LWHomeViewController.m */; };
+		18B375D01FB2E334005A4969 /* CALayer+LWLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375961FB2E333005A4969 /* CALayer+LWLayer.m */; };
+		18B375D11FB2E334005A4969 /* LWMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3759A1FB2E333005A4969 /* LWMethods.m */; };
+		18B375D21FB2E334005A4969 /* NSArray+LWArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3759D1FB2E333005A4969 /* NSArray+LWArray.m */; };
+		18B375D31FB2E334005A4969 /* NSDate+LWDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3759F1FB2E333005A4969 /* NSDate+LWDate.m */; };
+		18B375D41FB2E334005A4969 /* NSDictionary+LWDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375A11FB2E333005A4969 /* NSDictionary+LWDictionary.m */; };
+		18B375D51FB2E334005A4969 /* NSFileManager+LWFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375A31FB2E333005A4969 /* NSFileManager+LWFileManager.m */; };
+		18B375D61FB2E334005A4969 /* NSNumber+LWNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375A51FB2E333005A4969 /* NSNumber+LWNumber.m */; };
+		18B375D71FB2E334005A4969 /* NSObject+LWObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375A71FB2E333005A4969 /* NSObject+LWObject.m */; };
+		18B375D81FB2E334005A4969 /* NSObject+LWRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375A91FB2E333005A4969 /* NSObject+LWRuntime.m */; };
+		18B375D91FB2E334005A4969 /* NSString+LWString.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375AB1FB2E333005A4969 /* NSString+LWString.m */; };
+		18B375DA1FB2E334005A4969 /* NSTimer+LWTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375AD1FB2E333005A4969 /* NSTimer+LWTimer.m */; };
+		18B375DB1FB2E334005A4969 /* UIAlertController+LWAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375B01FB2E333005A4969 /* UIAlertController+LWAlert.m */; };
+		18B375DC1FB2E334005A4969 /* UIBarButtonItem+LWBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375B21FB2E333005A4969 /* UIBarButtonItem+LWBarButtonItem.m */; };
+		18B375DD1FB2E334005A4969 /* UIButton+LWButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375B41FB2E333005A4969 /* UIButton+LWButton.m */; };
+		18B375DE1FB2E334005A4969 /* UIColor+LWColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375B61FB2E333005A4969 /* UIColor+LWColor.m */; };
+		18B375DF1FB2E334005A4969 /* UIDevice+LWDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375B81FB2E333005A4969 /* UIDevice+LWDevice.m */; };
+		18B375E01FB2E334005A4969 /* UIImage+WHImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375BA1FB2E333005A4969 /* UIImage+WHImage.m */; };
+		18B375E11FB2E334005A4969 /* UIImageView+LWImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375BC1FB2E333005A4969 /* UIImageView+LWImageView.m */; };
+		18B375E21FB2E334005A4969 /* UILabel+LWLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375BE1FB2E333005A4969 /* UILabel+LWLabel.m */; };
+		18B375E31FB2E334005A4969 /* UINavigationController+LWNavigationControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375C01FB2E333005A4969 /* UINavigationController+LWNavigationControllerViewController.m */; };
+		18B375E41FB2E334005A4969 /* UIScrollView+LWScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375C21FB2E333005A4969 /* UIScrollView+LWScrollView.m */; };
+		18B375E51FB2E334005A4969 /* UITableView+LWTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375C41FB2E333005A4969 /* UITableView+LWTableView.m */; };
+		18B375E61FB2E334005A4969 /* UITextField+LWTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375C61FB2E333005A4969 /* UITextField+LWTextField.m */; };
+		18B375E71FB2E334005A4969 /* UIView+LWView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375C81FB2E333005A4969 /* UIView+LWView.m */; };
+		18B375E81FB2E334005A4969 /* UIViewController+LWVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375CA1FB2E333005A4969 /* UIViewController+LWVC.m */; };
+		18B375EF1FB2E644005A4969 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375EE1FB2E644005A4969 /* main.m */; };
+		18B375F31FB2E7AD005A4969 /* LWViewModelServicesImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375F21FB2E7AD005A4969 /* LWViewModelServicesImpl.m */; };
+		18B375F61FB2E841005A4969 /* LWUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375F51FB2E841005A4969 /* LWUser.m */; };
+		18B375FD1FB2EBC1005A4969 /* LWViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375FC1FB2EBC1005A4969 /* LWViewModel.m */; };
+		18E4360A1FB2F3C2002CDDCA /* LWNavigationControllerStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E436091FB2F3C2002CDDCA /* LWNavigationControllerStack.m */; };
+		18E4360E1FB2F457002CDDCA /* LWRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4360D1FB2F457002CDDCA /* LWRouter.m */; };
+		18E436111FB2F503002CDDCA /* LWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E436101FB2F503002CDDCA /* LWViewController.m */; };
+		18E436141FB2F5AC002CDDCA /* LWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E436131FB2F5AC002CDDCA /* LWNavigationController.m */; };
+		18E436171FB2F70E002CDDCA /* LWError.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E436161FB2F70E002CDDCA /* LWError.m */; };
+		18E4361A1FB2F8E2002CDDCA /* LWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E436191FB2F8E2002CDDCA /* LWTabBarController.m */; };
+		F48805F7E5F1F8951366B4B2 /* Pods_TestProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9724C0170EFECF56BB5217F3 /* Pods_TestProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1819EF911FB2DD34001C6048 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1819EF941FB2DD34001C6048 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1819EF951FB2DD34001C6048 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1819EF9D1FB2DD34001C6048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1819EFA21FB2DD34001C6048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18521DC41FB2FC6500B0A15E /* LWHomepageViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWHomepageViewModel.h; sourceTree = "<group>"; };
+		18521DC51FB2FC6500B0A15E /* LWHomepageViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWHomepageViewModel.m; sourceTree = "<group>"; };
+		18521DC71FB2FD3900B0A15E /* LWHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWHomeViewController.h; sourceTree = "<group>"; };
+		18521DC81FB2FD3900B0A15E /* LWHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWHomeViewController.m; sourceTree = "<group>"; };
+		18B375951FB2E333005A4969 /* CALayer+LWLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+LWLayer.h"; sourceTree = "<group>"; };
+		18B375961FB2E333005A4969 /* CALayer+LWLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+LWLayer.m"; sourceTree = "<group>"; };
+		18B375971FB2E333005A4969 /* LWKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWKit.h; sourceTree = "<group>"; };
+		18B375981FB2E333005A4969 /* LWMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWMacro.h; sourceTree = "<group>"; };
+		18B375991FB2E333005A4969 /* LWMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWMethods.h; sourceTree = "<group>"; };
+		18B3759A1FB2E333005A4969 /* LWMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWMethods.m; sourceTree = "<group>"; };
+		18B3759B1FB2E333005A4969 /* LWSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWSingleton.h; sourceTree = "<group>"; };
+		18B3759C1FB2E333005A4969 /* NSArray+LWArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LWArray.h"; sourceTree = "<group>"; };
+		18B3759D1FB2E333005A4969 /* NSArray+LWArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LWArray.m"; sourceTree = "<group>"; };
+		18B3759E1FB2E333005A4969 /* NSDate+LWDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+LWDate.h"; sourceTree = "<group>"; };
+		18B3759F1FB2E333005A4969 /* NSDate+LWDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LWDate.m"; sourceTree = "<group>"; };
+		18B375A01FB2E333005A4969 /* NSDictionary+LWDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LWDictionary.h"; sourceTree = "<group>"; };
+		18B375A11FB2E333005A4969 /* NSDictionary+LWDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LWDictionary.m"; sourceTree = "<group>"; };
+		18B375A21FB2E333005A4969 /* NSFileManager+LWFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+LWFileManager.h"; sourceTree = "<group>"; };
+		18B375A31FB2E333005A4969 /* NSFileManager+LWFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+LWFileManager.m"; sourceTree = "<group>"; };
+		18B375A41FB2E333005A4969 /* NSNumber+LWNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+LWNumber.h"; sourceTree = "<group>"; };
+		18B375A51FB2E333005A4969 /* NSNumber+LWNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+LWNumber.m"; sourceTree = "<group>"; };
+		18B375A61FB2E333005A4969 /* NSObject+LWObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LWObject.h"; sourceTree = "<group>"; };
+		18B375A71FB2E333005A4969 /* NSObject+LWObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LWObject.m"; sourceTree = "<group>"; };
+		18B375A81FB2E333005A4969 /* NSObject+LWRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LWRuntime.h"; sourceTree = "<group>"; };
+		18B375A91FB2E333005A4969 /* NSObject+LWRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LWRuntime.m"; sourceTree = "<group>"; };
+		18B375AA1FB2E333005A4969 /* NSString+LWString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LWString.h"; sourceTree = "<group>"; };
+		18B375AB1FB2E333005A4969 /* NSString+LWString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LWString.m"; sourceTree = "<group>"; };
+		18B375AC1FB2E333005A4969 /* NSTimer+LWTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+LWTimer.h"; sourceTree = "<group>"; };
+		18B375AD1FB2E333005A4969 /* NSTimer+LWTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+LWTimer.m"; sourceTree = "<group>"; };
+		18B375AE1FB2E333005A4969 /* SerializeKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerializeKit.h; sourceTree = "<group>"; };
+		18B375AF1FB2E333005A4969 /* UIAlertController+LWAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+LWAlert.h"; sourceTree = "<group>"; };
+		18B375B01FB2E333005A4969 /* UIAlertController+LWAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+LWAlert.m"; sourceTree = "<group>"; };
+		18B375B11FB2E333005A4969 /* UIBarButtonItem+LWBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+LWBarButtonItem.h"; sourceTree = "<group>"; };
+		18B375B21FB2E333005A4969 /* UIBarButtonItem+LWBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+LWBarButtonItem.m"; sourceTree = "<group>"; };
+		18B375B31FB2E333005A4969 /* UIButton+LWButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LWButton.h"; sourceTree = "<group>"; };
+		18B375B41FB2E333005A4969 /* UIButton+LWButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LWButton.m"; sourceTree = "<group>"; };
+		18B375B51FB2E333005A4969 /* UIColor+LWColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LWColor.h"; sourceTree = "<group>"; };
+		18B375B61FB2E333005A4969 /* UIColor+LWColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LWColor.m"; sourceTree = "<group>"; };
+		18B375B71FB2E333005A4969 /* UIDevice+LWDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+LWDevice.h"; sourceTree = "<group>"; };
+		18B375B81FB2E333005A4969 /* UIDevice+LWDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+LWDevice.m"; sourceTree = "<group>"; };
+		18B375B91FB2E333005A4969 /* UIImage+WHImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WHImage.h"; sourceTree = "<group>"; };
+		18B375BA1FB2E333005A4969 /* UIImage+WHImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WHImage.m"; sourceTree = "<group>"; };
+		18B375BB1FB2E333005A4969 /* UIImageView+LWImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LWImageView.h"; sourceTree = "<group>"; };
+		18B375BC1FB2E333005A4969 /* UIImageView+LWImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LWImageView.m"; sourceTree = "<group>"; };
+		18B375BD1FB2E333005A4969 /* UILabel+LWLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LWLabel.h"; sourceTree = "<group>"; };
+		18B375BE1FB2E333005A4969 /* UILabel+LWLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LWLabel.m"; sourceTree = "<group>"; };
+		18B375BF1FB2E333005A4969 /* UINavigationController+LWNavigationControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+LWNavigationControllerViewController.h"; sourceTree = "<group>"; };
+		18B375C01FB2E333005A4969 /* UINavigationController+LWNavigationControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+LWNavigationControllerViewController.m"; sourceTree = "<group>"; };
+		18B375C11FB2E333005A4969 /* UIScrollView+LWScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LWScrollView.h"; sourceTree = "<group>"; };
+		18B375C21FB2E333005A4969 /* UIScrollView+LWScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LWScrollView.m"; sourceTree = "<group>"; };
+		18B375C31FB2E333005A4969 /* UITableView+LWTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LWTableView.h"; sourceTree = "<group>"; };
+		18B375C41FB2E333005A4969 /* UITableView+LWTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LWTableView.m"; sourceTree = "<group>"; };
+		18B375C51FB2E333005A4969 /* UITextField+LWTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LWTextField.h"; sourceTree = "<group>"; };
+		18B375C61FB2E333005A4969 /* UITextField+LWTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LWTextField.m"; sourceTree = "<group>"; };
+		18B375C71FB2E333005A4969 /* UIView+LWView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LWView.h"; sourceTree = "<group>"; };
+		18B375C81FB2E333005A4969 /* UIView+LWView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LWView.m"; sourceTree = "<group>"; };
+		18B375C91FB2E333005A4969 /* UIViewController+LWVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LWVC.h"; sourceTree = "<group>"; };
+		18B375CA1FB2E333005A4969 /* UIViewController+LWVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LWVC.m"; sourceTree = "<group>"; };
+		18B375E91FB2E375005A4969 /* ECMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMacro.h; sourceTree = "<group>"; };
+		18B375ED1FB2E644005A4969 /* TestProject-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestProject-Prefix.pch"; sourceTree = "<group>"; };
+		18B375EE1FB2E644005A4969 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18B375F11FB2E7AD005A4969 /* LWViewModelServicesImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWViewModelServicesImpl.h; sourceTree = "<group>"; };
+		18B375F21FB2E7AD005A4969 /* LWViewModelServicesImpl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWViewModelServicesImpl.m; sourceTree = "<group>"; };
+		18B375F41FB2E841005A4969 /* LWUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWUser.h; sourceTree = "<group>"; };
+		18B375F51FB2E841005A4969 /* LWUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWUser.m; sourceTree = "<group>"; };
+		18B375F71FB2E884005A4969 /* LWViewModelServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWViewModelServices.h; sourceTree = "<group>"; };
+		18B375FA1FB2EB7C005A4969 /* LWNavigationProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWNavigationProtocol.h; sourceTree = "<group>"; };
+		18B375FB1FB2EBC1005A4969 /* LWViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWViewModel.h; sourceTree = "<group>"; };
+		18B375FC1FB2EBC1005A4969 /* LWViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWViewModel.m; sourceTree = "<group>"; };
+		18E436081FB2F3C2002CDDCA /* LWNavigationControllerStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWNavigationControllerStack.h; sourceTree = "<group>"; };
+		18E436091FB2F3C2002CDDCA /* LWNavigationControllerStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWNavigationControllerStack.m; sourceTree = "<group>"; };
+		18E4360C1FB2F457002CDDCA /* LWRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWRouter.h; sourceTree = "<group>"; };
+		18E4360D1FB2F457002CDDCA /* LWRouter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWRouter.m; sourceTree = "<group>"; };
+		18E4360F1FB2F503002CDDCA /* LWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWViewController.h; sourceTree = "<group>"; };
+		18E436101FB2F503002CDDCA /* LWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWViewController.m; sourceTree = "<group>"; };
+		18E436121FB2F5AC002CDDCA /* LWNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWNavigationController.h; sourceTree = "<group>"; };
+		18E436131FB2F5AC002CDDCA /* LWNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWNavigationController.m; sourceTree = "<group>"; };
+		18E436151FB2F70E002CDDCA /* LWError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWError.h; sourceTree = "<group>"; };
+		18E436161FB2F70E002CDDCA /* LWError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWError.m; sourceTree = "<group>"; };
+		18E436181FB2F8E2002CDDCA /* LWTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWTabBarController.h; sourceTree = "<group>"; };
+		18E436191FB2F8E2002CDDCA /* LWTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWTabBarController.m; sourceTree = "<group>"; };
+		5C78B6F60AE9808C74107EF9 /* Pods-TestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestProject/Pods-TestProject.debug.xcconfig"; sourceTree = "<group>"; };
+		9724C0170EFECF56BB5217F3 /* Pods_TestProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C65406C4B66060F6DF3AD8B4 /* Pods-TestProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestProject/Pods-TestProject.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1819EF8E1FB2DD34001C6048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F48805F7E5F1F8951366B4B2 /* Pods_TestProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		065724720BADF7C44156D07E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9724C0170EFECF56BB5217F3 /* Pods_TestProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1819EF881FB2DD34001C6048 = {
+			isa = PBXGroup;
+			children = (
+				1819EF931FB2DD34001C6048 /* TestProject */,
+				1819EF921FB2DD34001C6048 /* Products */,
+				3438211E92164B983C5932AD /* Pods */,
+				065724720BADF7C44156D07E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1819EF921FB2DD34001C6048 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1819EF911FB2DD34001C6048 /* TestProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1819EF931FB2DD34001C6048 /* TestProject */ = {
+			isa = PBXGroup;
+			children = (
+				18B375931FB2E333005A4969 /* General */,
+				18B375CF1FB2E334005A4969 /* Model */,
+				18B375CD1FB2E333005A4969 /* NetWork */,
+				18B375CE1FB2E334005A4969 /* View */,
+				18B375CC1FB2E333005A4969 /* ViewController */,
+				18B375921FB2E333005A4969 /* ViewModel */,
+				1819EF941FB2DD34001C6048 /* AppDelegate.h */,
+				1819EF951FB2DD34001C6048 /* AppDelegate.m */,
+				1819EF9D1FB2DD34001C6048 /* Assets.xcassets */,
+				1819EFA21FB2DD34001C6048 /* Info.plist */,
+				18B375EE1FB2E644005A4969 /* main.m */,
+				18B375ED1FB2E644005A4969 /* TestProject-Prefix.pch */,
+			);
+			path = TestProject;
+			sourceTree = "<group>";
+		};
+		18B375921FB2E333005A4969 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				18B375F01FB2E792005A4969 /* BaseClass */,
+				18521DC41FB2FC6500B0A15E /* LWHomepageViewModel.h */,
+				18521DC51FB2FC6500B0A15E /* LWHomepageViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		18B375931FB2E333005A4969 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				18B375941FB2E333005A4969 /* LWKit */,
+				18B375CB1FB2E333005A4969 /* Macro */,
+				18E4360B1FB2F438002CDDCA /* Util */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		18B375941FB2E333005A4969 /* LWKit */ = {
+			isa = PBXGroup;
+			children = (
+				18B375951FB2E333005A4969 /* CALayer+LWLayer.h */,
+				18B375961FB2E333005A4969 /* CALayer+LWLayer.m */,
+				18B375971FB2E333005A4969 /* LWKit.h */,
+				18B375981FB2E333005A4969 /* LWMacro.h */,
+				18B375991FB2E333005A4969 /* LWMethods.h */,
+				18B3759A1FB2E333005A4969 /* LWMethods.m */,
+				18B3759B1FB2E333005A4969 /* LWSingleton.h */,
+				18B3759C1FB2E333005A4969 /* NSArray+LWArray.h */,
+				18B3759D1FB2E333005A4969 /* NSArray+LWArray.m */,
+				18B3759E1FB2E333005A4969 /* NSDate+LWDate.h */,
+				18B3759F1FB2E333005A4969 /* NSDate+LWDate.m */,
+				18B375A01FB2E333005A4969 /* NSDictionary+LWDictionary.h */,
+				18B375A11FB2E333005A4969 /* NSDictionary+LWDictionary.m */,
+				18B375A21FB2E333005A4969 /* NSFileManager+LWFileManager.h */,
+				18B375A31FB2E333005A4969 /* NSFileManager+LWFileManager.m */,
+				18B375A41FB2E333005A4969 /* NSNumber+LWNumber.h */,
+				18B375A51FB2E333005A4969 /* NSNumber+LWNumber.m */,
+				18B375A61FB2E333005A4969 /* NSObject+LWObject.h */,
+				18B375A71FB2E333005A4969 /* NSObject+LWObject.m */,
+				18B375A81FB2E333005A4969 /* NSObject+LWRuntime.h */,
+				18B375A91FB2E333005A4969 /* NSObject+LWRuntime.m */,
+				18B375AA1FB2E333005A4969 /* NSString+LWString.h */,
+				18B375AB1FB2E333005A4969 /* NSString+LWString.m */,
+				18B375AC1FB2E333005A4969 /* NSTimer+LWTimer.h */,
+				18B375AD1FB2E333005A4969 /* NSTimer+LWTimer.m */,
+				18B375AE1FB2E333005A4969 /* SerializeKit.h */,
+				18B375AF1FB2E333005A4969 /* UIAlertController+LWAlert.h */,
+				18B375B01FB2E333005A4969 /* UIAlertController+LWAlert.m */,
+				18B375B11FB2E333005A4969 /* UIBarButtonItem+LWBarButtonItem.h */,
+				18B375B21FB2E333005A4969 /* UIBarButtonItem+LWBarButtonItem.m */,
+				18B375B31FB2E333005A4969 /* UIButton+LWButton.h */,
+				18B375B41FB2E333005A4969 /* UIButton+LWButton.m */,
+				18B375B51FB2E333005A4969 /* UIColor+LWColor.h */,
+				18B375B61FB2E333005A4969 /* UIColor+LWColor.m */,
+				18B375B71FB2E333005A4969 /* UIDevice+LWDevice.h */,
+				18B375B81FB2E333005A4969 /* UIDevice+LWDevice.m */,
+				18B375B91FB2E333005A4969 /* UIImage+WHImage.h */,
+				18B375BA1FB2E333005A4969 /* UIImage+WHImage.m */,
+				18B375BB1FB2E333005A4969 /* UIImageView+LWImageView.h */,
+				18B375BC1FB2E333005A4969 /* UIImageView+LWImageView.m */,
+				18B375BD1FB2E333005A4969 /* UILabel+LWLabel.h */,
+				18B375BE1FB2E333005A4969 /* UILabel+LWLabel.m */,
+				18B375BF1FB2E333005A4969 /* UINavigationController+LWNavigationControllerViewController.h */,
+				18B375C01FB2E333005A4969 /* UINavigationController+LWNavigationControllerViewController.m */,
+				18B375C11FB2E333005A4969 /* UIScrollView+LWScrollView.h */,
+				18B375C21FB2E333005A4969 /* UIScrollView+LWScrollView.m */,
+				18B375C31FB2E333005A4969 /* UITableView+LWTableView.h */,
+				18B375C41FB2E333005A4969 /* UITableView+LWTableView.m */,
+				18B375C51FB2E333005A4969 /* UITextField+LWTextField.h */,
+				18B375C61FB2E333005A4969 /* UITextField+LWTextField.m */,
+				18B375C71FB2E333005A4969 /* UIView+LWView.h */,
+				18B375C81FB2E333005A4969 /* UIView+LWView.m */,
+				18B375C91FB2E333005A4969 /* UIViewController+LWVC.h */,
+				18B375CA1FB2E333005A4969 /* UIViewController+LWVC.m */,
+			);
+			path = LWKit;
+			sourceTree = "<group>";
+		};
+		18B375CB1FB2E333005A4969 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				18B375E91FB2E375005A4969 /* ECMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		18B375CC1FB2E333005A4969 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18E436071FB2F3B4002CDDCA /* BaseClass */,
+				18521DC71FB2FD3900B0A15E /* LWHomeViewController.h */,
+				18521DC81FB2FD3900B0A15E /* LWHomeViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		18B375CD1FB2E333005A4969 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		18B375CE1FB2E334005A4969 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18B375CF1FB2E334005A4969 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18B375F41FB2E841005A4969 /* LWUser.h */,
+				18B375F51FB2E841005A4969 /* LWUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18B375F01FB2E792005A4969 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				18B375FA1FB2EB7C005A4969 /* LWNavigationProtocol.h */,
+				18B375F71FB2E884005A4969 /* LWViewModelServices.h */,
+				18B375F11FB2E7AD005A4969 /* LWViewModelServicesImpl.h */,
+				18B375F21FB2E7AD005A4969 /* LWViewModelServicesImpl.m */,
+				18B375FB1FB2EBC1005A4969 /* LWViewModel.h */,
+				18B375FC1FB2EBC1005A4969 /* LWViewModel.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		18E436071FB2F3B4002CDDCA /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				18E436081FB2F3C2002CDDCA /* LWNavigationControllerStack.h */,
+				18E436091FB2F3C2002CDDCA /* LWNavigationControllerStack.m */,
+				18E4360F1FB2F503002CDDCA /* LWViewController.h */,
+				18E436101FB2F503002CDDCA /* LWViewController.m */,
+				18E436121FB2F5AC002CDDCA /* LWNavigationController.h */,
+				18E436131FB2F5AC002CDDCA /* LWNavigationController.m */,
+				18E436181FB2F8E2002CDDCA /* LWTabBarController.h */,
+				18E436191FB2F8E2002CDDCA /* LWTabBarController.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		18E4360B1FB2F438002CDDCA /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				18E436151FB2F70E002CDDCA /* LWError.h */,
+				18E436161FB2F70E002CDDCA /* LWError.m */,
+				18E4360C1FB2F457002CDDCA /* LWRouter.h */,
+				18E4360D1FB2F457002CDDCA /* LWRouter.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		3438211E92164B983C5932AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C78B6F60AE9808C74107EF9 /* Pods-TestProject.debug.xcconfig */,
+				C65406C4B66060F6DF3AD8B4 /* Pods-TestProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1819EF901FB2DD34001C6048 /* TestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1819EFA71FB2DD34001C6048 /* Build configuration list for PBXNativeTarget "TestProject" */;
+			buildPhases = (
+				5777EBA68C5A8FBC2C53D592 /* [CP] Check Pods Manifest.lock */,
+				1819EF8D1FB2DD34001C6048 /* Sources */,
+				1819EF8E1FB2DD34001C6048 /* Frameworks */,
+				1819EF8F1FB2DD34001C6048 /* Resources */,
+				75367D35DBB378C205DC535B /* [CP] Embed Pods Frameworks */,
+				8C69A26A1BF097C5D8AE75BA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestProject;
+			productName = TestProject;
+			productReference = 1819EF911FB2DD34001C6048 /* TestProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1819EF891FB2DD34001C6048 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = LiuweiChina;
+				TargetAttributes = {
+					1819EF901FB2DD34001C6048 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1819EF8C1FB2DD34001C6048 /* Build configuration list for PBXProject "TestProject" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1819EF881FB2DD34001C6048;
+			productRefGroup = 1819EF921FB2DD34001C6048 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1819EF901FB2DD34001C6048 /* TestProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1819EF8F1FB2DD34001C6048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1819EF9E1FB2DD34001C6048 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5777EBA68C5A8FBC2C53D592 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75367D35DBB378C205DC535B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestProject/Pods-TestProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C69A26A1BF097C5D8AE75BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestProject/Pods-TestProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1819EF8D1FB2DD34001C6048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E4360A1FB2F3C2002CDDCA /* LWNavigationControllerStack.m in Sources */,
+				18B375DD1FB2E334005A4969 /* UIButton+LWButton.m in Sources */,
+				18B375DB1FB2E334005A4969 /* UIAlertController+LWAlert.m in Sources */,
+				18E4361A1FB2F8E2002CDDCA /* LWTabBarController.m in Sources */,
+				18B375D71FB2E334005A4969 /* NSObject+LWObject.m in Sources */,
+				18B375D91FB2E334005A4969 /* NSString+LWString.m in Sources */,
+				18B375D01FB2E334005A4969 /* CALayer+LWLayer.m in Sources */,
+				18B375D41FB2E334005A4969 /* NSDictionary+LWDictionary.m in Sources */,
+				18B375E01FB2E334005A4969 /* UIImage+WHImage.m in Sources */,
+				18B375E11FB2E334005A4969 /* UIImageView+LWImageView.m in Sources */,
+				18E4360E1FB2F457002CDDCA /* LWRouter.m in Sources */,
+				18B375E61FB2E334005A4969 /* UITextField+LWTextField.m in Sources */,
+				18B375D11FB2E334005A4969 /* LWMethods.m in Sources */,
+				18B375F61FB2E841005A4969 /* LWUser.m in Sources */,
+				18B375E21FB2E334005A4969 /* UILabel+LWLabel.m in Sources */,
+				18B375DE1FB2E334005A4969 /* UIColor+LWColor.m in Sources */,
+				18B375E71FB2E334005A4969 /* UIView+LWView.m in Sources */,
+				18B375D81FB2E334005A4969 /* NSObject+LWRuntime.m in Sources */,
+				18B375DC1FB2E334005A4969 /* UIBarButtonItem+LWBarButtonItem.m in Sources */,
+				18B375E41FB2E334005A4969 /* UIScrollView+LWScrollView.m in Sources */,
+				18B375EF1FB2E644005A4969 /* main.m in Sources */,
+				18B375F31FB2E7AD005A4969 /* LWViewModelServicesImpl.m in Sources */,
+				1819EF961FB2DD34001C6048 /* AppDelegate.m in Sources */,
+				18B375DF1FB2E334005A4969 /* UIDevice+LWDevice.m in Sources */,
+				18E436111FB2F503002CDDCA /* LWViewController.m in Sources */,
+				18B375FD1FB2EBC1005A4969 /* LWViewModel.m in Sources */,
+				18521DC91FB2FD3900B0A15E /* LWHomeViewController.m in Sources */,
+				18B375D31FB2E334005A4969 /* NSDate+LWDate.m in Sources */,
+				18E436141FB2F5AC002CDDCA /* LWNavigationController.m in Sources */,
+				18B375D51FB2E334005A4969 /* NSFileManager+LWFileManager.m in Sources */,
+				18B375D21FB2E334005A4969 /* NSArray+LWArray.m in Sources */,
+				18E436171FB2F70E002CDDCA /* LWError.m in Sources */,
+				18B375D61FB2E334005A4969 /* NSNumber+LWNumber.m in Sources */,
+				18B375E31FB2E334005A4969 /* UINavigationController+LWNavigationControllerViewController.m in Sources */,
+				18521DC61FB2FC6500B0A15E /* LWHomepageViewModel.m in Sources */,
+				18B375DA1FB2E334005A4969 /* NSTimer+LWTimer.m in Sources */,
+				18B375E81FB2E334005A4969 /* UIViewController+LWVC.m in Sources */,
+				18B375E51FB2E334005A4969 /* UITableView+LWTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1819EFA51FB2DD34001C6048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1819EFA61FB2DD34001C6048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1819EFA81FB2DD34001C6048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C78B6F60AE9808C74107EF9 /* Pods-TestProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8Y7BB8FWZ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestProject/TestProject-Prefix.pch";
+				INFOPLIST_FILE = TestProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-LiuweiChina.TestProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1819EFA91FB2DD34001C6048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C65406C4B66060F6DF3AD8B4 /* Pods-TestProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_WARN_STRICT_PROTOTYPES = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M8Y7BB8FWZ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestProject/TestProject-Prefix.pch";
+				INFOPLIST_FILE = TestProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.-LiuweiChina.TestProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1819EF8C1FB2DD34001C6048 /* Build configuration list for PBXProject "TestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1819EFA51FB2DD34001C6048 /* Debug */,
+				1819EFA61FB2DD34001C6048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1819EFA71FB2DD34001C6048 /* Build configuration list for PBXNativeTarget "TestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1819EFA81FB2DD34001C6048 /* Debug */,
+				1819EFA91FB2DD34001C6048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1819EF891FB2DD34001C6048 /* Project object */;
+}
