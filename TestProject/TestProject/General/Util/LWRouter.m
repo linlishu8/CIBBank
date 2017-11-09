@@ -30,7 +30,7 @@
 
 - (NSDictionary *)viewModelViewMappings {
     return @{
-             @"LWHomepageViewModel" : @"LWHomeViewController"
+             @"CIBTabBarViewModel" : @"CIBTabBarController"
              };
 }
 

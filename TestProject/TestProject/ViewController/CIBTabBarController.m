@@ -1,18 +1,18 @@
 //
-//  LWHomeViewController.m
+//  CIBTabBarController.m
 //  TestProject
 //
-//  Created by 动感超人 on 2017/11/8.
+//  Created by 动感超人 on 2017/11/9.
 //  Copyright © 2017年 LiuweiChina. All rights reserved.
 //
 
-#import "LWHomeViewController.h"
+#import "CIBTabBarController.h"
 
-@interface LWHomeViewController ()
+@interface CIBTabBarController ()
 
 @end
 
-@implementation LWHomeViewController
+@implementation CIBTabBarController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

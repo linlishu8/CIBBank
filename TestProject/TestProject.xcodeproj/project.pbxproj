@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		1819EF961FB2DD34001C6048 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819EF951FB2DD34001C6048 /* AppDelegate.m */; };
 		1819EF9E1FB2DD34001C6048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1819EF9D1FB2DD34001C6048 /* Assets.xcassets */; };
-		18521DC61FB2FC6500B0A15E /* LWHomepageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18521DC51FB2FC6500B0A15E /* LWHomepageViewModel.m */; };
-		18521DC91FB2FD3900B0A15E /* LWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18521DC81FB2FD3900B0A15E /* LWHomeViewController.m */; };
 		18B375D01FB2E334005A4969 /* CALayer+LWLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375961FB2E333005A4969 /* CALayer+LWLayer.m */; };
 		18B375D11FB2E334005A4969 /* LWMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3759A1FB2E333005A4969 /* LWMethods.m */; };
 		18B375D21FB2E334005A4969 /* NSArray+LWArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3759D1FB2E333005A4969 /* NSArray+LWArray.m */; };
@@ -40,6 +38,8 @@
 		18B375F31FB2E7AD005A4969 /* LWViewModelServicesImpl.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375F21FB2E7AD005A4969 /* LWViewModelServicesImpl.m */; };
 		18B375F61FB2E841005A4969 /* LWUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375F51FB2E841005A4969 /* LWUser.m */; };
 		18B375FD1FB2EBC1005A4969 /* LWViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375FC1FB2EBC1005A4969 /* LWViewModel.m */; };
+		18BBC6CD1FB3F76C0029A754 /* CIBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBC6CC1FB3F76C0029A754 /* CIBTabBarController.m */; };
+		18BBC6D01FB3F8090029A754 /* CIBTabBarViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBC6CF1FB3F8090029A754 /* CIBTabBarViewModel.m */; };
 		18E4360A1FB2F3C2002CDDCA /* LWNavigationControllerStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E436091FB2F3C2002CDDCA /* LWNavigationControllerStack.m */; };
 		18E4360E1FB2F457002CDDCA /* LWRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4360D1FB2F457002CDDCA /* LWRouter.m */; };
 		18E436111FB2F503002CDDCA /* LWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E436101FB2F503002CDDCA /* LWViewController.m */; };
@@ -55,10 +55,6 @@
 		1819EF951FB2DD34001C6048 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1819EF9D1FB2DD34001C6048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1819EFA21FB2DD34001C6048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18521DC41FB2FC6500B0A15E /* LWHomepageViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWHomepageViewModel.h; sourceTree = "<group>"; };
-		18521DC51FB2FC6500B0A15E /* LWHomepageViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWHomepageViewModel.m; sourceTree = "<group>"; };
-		18521DC71FB2FD3900B0A15E /* LWHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWHomeViewController.h; sourceTree = "<group>"; };
-		18521DC81FB2FD3900B0A15E /* LWHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWHomeViewController.m; sourceTree = "<group>"; };
 		18B375951FB2E333005A4969 /* CALayer+LWLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+LWLayer.h"; sourceTree = "<group>"; };
 		18B375961FB2E333005A4969 /* CALayer+LWLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+LWLayer.m"; sourceTree = "<group>"; };
 		18B375971FB2E333005A4969 /* LWKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWKit.h; sourceTree = "<group>"; };
@@ -124,6 +120,10 @@
 		18B375FA1FB2EB7C005A4969 /* LWNavigationProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWNavigationProtocol.h; sourceTree = "<group>"; };
 		18B375FB1FB2EBC1005A4969 /* LWViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWViewModel.h; sourceTree = "<group>"; };
 		18B375FC1FB2EBC1005A4969 /* LWViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWViewModel.m; sourceTree = "<group>"; };
+		18BBC6CB1FB3F76C0029A754 /* CIBTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIBTabBarController.h; sourceTree = "<group>"; };
+		18BBC6CC1FB3F76C0029A754 /* CIBTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIBTabBarController.m; sourceTree = "<group>"; };
+		18BBC6CE1FB3F8090029A754 /* CIBTabBarViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIBTabBarViewModel.h; sourceTree = "<group>"; };
+		18BBC6CF1FB3F8090029A754 /* CIBTabBarViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIBTabBarViewModel.m; sourceTree = "<group>"; };
 		18E436081FB2F3C2002CDDCA /* LWNavigationControllerStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWNavigationControllerStack.h; sourceTree = "<group>"; };
 		18E436091FB2F3C2002CDDCA /* LWNavigationControllerStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWNavigationControllerStack.m; sourceTree = "<group>"; };
 		18E4360C1FB2F457002CDDCA /* LWRouter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWRouter.h; sourceTree = "<group>"; };
@@ -202,8 +202,8 @@
 			isa = PBXGroup;
 			children = (
 				18B375F01FB2E792005A4969 /* BaseClass */,
-				18521DC41FB2FC6500B0A15E /* LWHomepageViewModel.h */,
-				18521DC51FB2FC6500B0A15E /* LWHomepageViewModel.m */,
+				18BBC6CE1FB3F8090029A754 /* CIBTabBarViewModel.h */,
+				18BBC6CF1FB3F8090029A754 /* CIBTabBarViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -291,8 +291,8 @@
 			isa = PBXGroup;
 			children = (
 				18E436071FB2F3B4002CDDCA /* BaseClass */,
-				18521DC71FB2FD3900B0A15E /* LWHomeViewController.h */,
-				18521DC81FB2FD3900B0A15E /* LWHomeViewController.m */,
+				18BBC6CB1FB3F76C0029A754 /* CIBTabBarController.h */,
+				18BBC6CC1FB3F76C0029A754 /* CIBTabBarController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -498,6 +498,7 @@
 				18B375D41FB2E334005A4969 /* NSDictionary+LWDictionary.m in Sources */,
 				18B375E01FB2E334005A4969 /* UIImage+WHImage.m in Sources */,
 				18B375E11FB2E334005A4969 /* UIImageView+LWImageView.m in Sources */,
+				18BBC6D01FB3F8090029A754 /* CIBTabBarViewModel.m in Sources */,
 				18E4360E1FB2F457002CDDCA /* LWRouter.m in Sources */,
 				18B375E61FB2E334005A4969 /* UITextField+LWTextField.m in Sources */,
 				18B375D11FB2E334005A4969 /* LWMethods.m in Sources */,
@@ -510,11 +511,11 @@
 				18B375E41FB2E334005A4969 /* UIScrollView+LWScrollView.m in Sources */,
 				18B375EF1FB2E644005A4969 /* main.m in Sources */,
 				18B375F31FB2E7AD005A4969 /* LWViewModelServicesImpl.m in Sources */,
+				18BBC6CD1FB3F76C0029A754 /* CIBTabBarController.m in Sources */,
 				1819EF961FB2DD34001C6048 /* AppDelegate.m in Sources */,
 				18B375DF1FB2E334005A4969 /* UIDevice+LWDevice.m in Sources */,
 				18E436111FB2F503002CDDCA /* LWViewController.m in Sources */,
 				18B375FD1FB2EBC1005A4969 /* LWViewModel.m in Sources */,
-				18521DC91FB2FD3900B0A15E /* LWHomeViewController.m in Sources */,
 				18B375D31FB2E334005A4969 /* NSDate+LWDate.m in Sources */,
 				18E436141FB2F5AC002CDDCA /* LWNavigationController.m in Sources */,
 				18B375D51FB2E334005A4969 /* NSFileManager+LWFileManager.m in Sources */,
@@ -522,7 +523,6 @@
 				18E436171FB2F70E002CDDCA /* LWError.m in Sources */,
 				18B375D61FB2E334005A4969 /* NSNumber+LWNumber.m in Sources */,
 				18B375E31FB2E334005A4969 /* UINavigationController+LWNavigationControllerViewController.m in Sources */,
-				18521DC61FB2FC6500B0A15E /* LWHomepageViewModel.m in Sources */,
 				18B375DA1FB2E334005A4969 /* NSTimer+LWTimer.m in Sources */,
 				18B375E81FB2E334005A4969 /* UIViewController+LWVC.m in Sources */,
 				18B375E51FB2E334005A4969 /* UITableView+LWTableView.m in Sources */,
