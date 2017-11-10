@@ -21,6 +21,8 @@
 #import "LWError.h"
 #import "UIScrollView+EmptyDataSet.h"
 #import "UIButton+LWButton.h"
+#import "UIImage+WHImage.h"
+#import "UIView+LWView.h"
 
 #endif
 

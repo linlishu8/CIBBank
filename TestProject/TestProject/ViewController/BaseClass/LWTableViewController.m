@@ -66,18 +66,19 @@
     // Do any additional setup after loading the view.
     
     self.tableView = ({
-        [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
+        UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
+        [tableView setDelegate:self];
+        [tableView setDataSource:self];
+        tableView.emptyDataSetSource = self;
+        tableView.emptyDataSetDelegate = self;
+        
+        tableView;
     });
     
     if (self.viewModel.shouldCellSeparatorStyleNone) {
         [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
         [self.tableView setSeparatorColor:[UIColor clearColor]];
     }
-    [self.tableView setDelegate:self];
-    [self.tableView setDataSource:self];
-    
-    self.tableView.emptyDataSetSource = self;
-    self.tableView.emptyDataSetDelegate = self;
     
     UIView *footer = [[UIView alloc] initWithFrame:CGRectZero];
     self.tableView.tableFooterView = footer;

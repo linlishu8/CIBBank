@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '503A01778F9556CCA15465E4323BC10E'
-               BlueprintName = 'ScreenCompatible_LFL'
+               BlueprintIdentifier = '2B50A2E25EC953FB624C82745D2CC73C'
+               BlueprintName = 'WRNavigationBar'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'ScreenCompatible_LFL.framework'>
+               BuildableName = 'WRNavigationBar.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

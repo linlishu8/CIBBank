@@ -10,4 +10,11 @@
 
 @implementation CIBHomePageViewModel
 
+- (void)initialize {
+    
+    [super initialize];
+    
+    self.shouldCellSeparatorStyleNone = YES;
+}
+
 @end

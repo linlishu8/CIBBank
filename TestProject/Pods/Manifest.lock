@@ -15,7 +15,7 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - DZNEmptyDataSet (1.8.1)
-  - IQKeyboardManager (5.0.4)
+  - IQKeyboardManager (5.0.6)
   - Mantle (2.1.0):
     - Mantle/extobjc (= 2.1.0)
   - Mantle/extobjc (2.1.0)
@@ -28,10 +28,11 @@ PODS:
   - ScreenCompatible_LFL (1.0.0)
   - SDCycleScrollView (1.74):
     - SDWebImage (>= 4.0.0)
-  - SDWebImage (4.2.1):
-    - SDWebImage/Core (= 4.2.1)
-  - SDWebImage/Core (4.2.1)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
   - UITableView+FDTemplateLayoutCell (1.6)
+  - WRNavigationBar (1.0.3)
   - YTKNetwork (2.0.4):
     - AFNetworking (~> 3.0)
 
@@ -48,12 +49,13 @@ DEPENDENCIES:
   - ScreenCompatible_LFL
   - SDCycleScrollView
   - UITableView+FDTemplateLayoutCell
+  - WRNavigationBar
   - YTKNetwork
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
-  IQKeyboardManager: 1df9c0f147af1681cfb2d9977bc30309d45a7e76
+  IQKeyboardManager: 077b7f691dfa9d69db9cff66f2bed68ebfc02d9b
   Mantle: 2fa750afa478cd625a94230fbf1c13462f29395b
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
@@ -63,10 +65,11 @@ SPEC CHECKSUMS:
   SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
   ScreenCompatible_LFL: 30d21d6109f47ae49d29f256ab133986d4bea91f
   SDCycleScrollView: f821215226f6146a35470721a9d6e83ec5cfb04b
-  SDWebImage: 1fa4c9edf525b744f002db89f3f5a38b3cd4c541
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
   UITableView+FDTemplateLayoutCell: 5c949b4a5059c404b442926c0e80f81d10a2d66f
+  WRNavigationBar: 4ae5aab66535b1a1690b3a26d3c2f92cb51b8c09
   YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
 
-PODFILE CHECKSUM: 1f226a0e0177a00135c1dede92a1e698c5cf94eb
+PODFILE CHECKSUM: 289dc2300577fe7e99019fda32141fe686b9ee04
 
 COCOAPODS: 1.2.1

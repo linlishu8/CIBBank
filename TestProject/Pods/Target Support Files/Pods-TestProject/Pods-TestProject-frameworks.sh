@@ -103,6 +103,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/SDWebImage/SDWebImage.framework"
   install_framework "$BUILT_PRODUCTS_DIR/ScreenCompatible_LFL/ScreenCompatible_LFL.framework"
   install_framework "$BUILT_PRODUCTS_DIR/UITableView+FDTemplateLayoutCell/UITableView_FDTemplateLayoutCell.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/WRNavigationBar/WRNavigationBar.framework"
   install_framework "$BUILT_PRODUCTS_DIR/YTKNetwork/YTKNetwork.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
@@ -120,6 +121,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/SDWebImage/SDWebImage.framework"
   install_framework "$BUILT_PRODUCTS_DIR/ScreenCompatible_LFL/ScreenCompatible_LFL.framework"
   install_framework "$BUILT_PRODUCTS_DIR/UITableView+FDTemplateLayoutCell/UITableView_FDTemplateLayoutCell.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/WRNavigationBar/WRNavigationBar.framework"
   install_framework "$BUILT_PRODUCTS_DIR/YTKNetwork/YTKNetwork.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
