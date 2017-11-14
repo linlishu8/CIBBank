@@ -7,6 +7,7 @@
 //
 
 #import "CIBHomePageViewModel.h"
+#import "CIBWebViewModel.h"
 
 @implementation CIBHomePageViewModel
 
@@ -17,7 +18,8 @@
     self.shouldCellSeparatorStyleNone = YES;
     
     self.didSelectCommand = [[RACCommand alloc] initWithSignalBlock:^RACSignal * (NSIndexPath *indexPath) {
-        NSLog(@"11");
+        CIBWebViewModel *webViewModel = [[CIBWebViewModel alloc] initWithServices:self.services params:@"www.baidu.com"];
+        [self.services pushViewModel:webViewModel animated:YES];
         return [RACSignal empty];
     }];
 }

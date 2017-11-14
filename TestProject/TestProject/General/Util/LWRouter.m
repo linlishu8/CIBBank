@@ -30,7 +30,8 @@
 
 - (NSDictionary *)viewModelViewMappings {
     return @{
-             @"CIBTabBarViewModel" : @"CIBTabBarController"
+             @"CIBTabBarViewModel" : @"CIBTabBarController",
+             @"CIBWebViewModel" : @"CIBWebViewController"
              };
 }
 

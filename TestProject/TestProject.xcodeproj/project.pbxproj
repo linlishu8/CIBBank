@@ -11,6 +11,8 @@
 		18036BF31FB98199007B67B4 /* CIBMenuCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18036BF21FB98199007B67B4 /* CIBMenuCollectionViewCell.m */; };
 		1819EF961FB2DD34001C6048 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819EF951FB2DD34001C6048 /* AppDelegate.m */; };
 		1819EF9E1FB2DD34001C6048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1819EF9D1FB2DD34001C6048 /* Assets.xcassets */; };
+		189DC7A41FBABFD000A44BC4 /* CIBWebViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 189DC7A31FBABFD000A44BC4 /* CIBWebViewModel.m */; };
+		189DC7A71FBABFE900A44BC4 /* CIBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 189DC7A61FBABFE900A44BC4 /* CIBWebViewController.m */; };
 		18B375D01FB2E334005A4969 /* CALayer+LWLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375961FB2E333005A4969 /* CALayer+LWLayer.m */; };
 		18B375D11FB2E334005A4969 /* LWMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3759A1FB2E333005A4969 /* LWMethods.m */; };
 		18B375D21FB2E334005A4969 /* NSArray+LWArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B3759D1FB2E333005A4969 /* NSArray+LWArray.m */; };
@@ -73,6 +75,10 @@
 		1819EF951FB2DD34001C6048 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1819EF9D1FB2DD34001C6048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1819EFA21FB2DD34001C6048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189DC7A21FBABFD000A44BC4 /* CIBWebViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIBWebViewModel.h; sourceTree = "<group>"; };
+		189DC7A31FBABFD000A44BC4 /* CIBWebViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIBWebViewModel.m; sourceTree = "<group>"; };
+		189DC7A51FBABFE900A44BC4 /* CIBWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIBWebViewController.h; sourceTree = "<group>"; };
+		189DC7A61FBABFE900A44BC4 /* CIBWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIBWebViewController.m; sourceTree = "<group>"; };
 		18B375951FB2E333005A4969 /* CALayer+LWLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+LWLayer.h"; sourceTree = "<group>"; };
 		18B375961FB2E333005A4969 /* CALayer+LWLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+LWLayer.m"; sourceTree = "<group>"; };
 		18B375971FB2E333005A4969 /* LWKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWKit.h; sourceTree = "<group>"; };
@@ -262,6 +268,8 @@
 				18BBC6F61FB431C80029A754 /* CIBWalletViewModel.m */,
 				18BBC6F81FB431DE0029A754 /* CIBAccountViewModel.h */,
 				18BBC6F91FB431DE0029A754 /* CIBAccountViewModel.m */,
+				189DC7A21FBABFD000A44BC4 /* CIBWebViewModel.h */,
+				189DC7A31FBABFD000A44BC4 /* CIBWebViewModel.m */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -270,7 +278,6 @@
 			isa = PBXGroup;
 			children = (
 				18B375941FB2E333005A4969 /* LWKit */,
-				18B375CB1FB2E333005A4969 /* Macro */,
 				18E4360B1FB2F438002CDDCA /* Util */,
 			);
 			path = General;
@@ -337,13 +344,6 @@
 			path = LWKit;
 			sourceTree = "<group>";
 		};
-		18B375CB1FB2E333005A4969 /* Macro */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Macro;
-			sourceTree = "<group>";
-		};
 		18B375CC1FB2E333005A4969 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -358,6 +358,8 @@
 				18BBC6F01FB4317A0029A754 /* CIBWalletViewController.m */,
 				18BBC6F21FB4318E0029A754 /* CIBAccountViewController.h */,
 				18BBC6F31FB4318E0029A754 /* CIBAccountViewController.m */,
+				189DC7A51FBABFE900A44BC4 /* CIBWebViewController.h */,
+				189DC7A61FBABFE900A44BC4 /* CIBWebViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -571,6 +573,7 @@
 				18B375D01FB2E334005A4969 /* CALayer+LWLayer.m in Sources */,
 				18B375D41FB2E334005A4969 /* NSDictionary+LWDictionary.m in Sources */,
 				18B375E01FB2E334005A4969 /* UIImage+LWImage.m in Sources */,
+				189DC7A71FBABFE900A44BC4 /* CIBWebViewController.m in Sources */,
 				18BBC6F11FB4317A0029A754 /* CIBWalletViewController.m in Sources */,
 				18BBC6D91FB42F590029A754 /* CIBHomePageViewController.m in Sources */,
 				18BBC6F41FB4318E0029A754 /* CIBAccountViewController.m in Sources */,
@@ -593,6 +596,7 @@
 				1819EF961FB2DD34001C6048 /* AppDelegate.m in Sources */,
 				18036BF31FB98199007B67B4 /* CIBMenuCollectionViewCell.m in Sources */,
 				18B375DF1FB2E334005A4969 /* UIDevice+LWDevice.m in Sources */,
+				189DC7A41FBABFD000A44BC4 /* CIBWebViewModel.m in Sources */,
 				18E436111FB2F503002CDDCA /* LWViewController.m in Sources */,
 				18BBC6D31FB42AE00029A754 /* LWTableViewController.m in Sources */,
 				18BBC6EE1FB4315A0029A754 /* CIBSupermarketViewController.m in Sources */,

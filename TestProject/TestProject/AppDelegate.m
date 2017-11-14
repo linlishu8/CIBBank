@@ -60,15 +60,6 @@
     return [[CIBTabBarViewModel alloc] initWithServices:self.services params:nil];
 }
 
-- (void)configureAppearance {
-    self.window.backgroundColor = colorViewBackGround;
-    [UINavigationBar appearance].barTintColor = colorNavBackGround;
-    [UINavigationBar appearance].barStyle  = UIBarStyleBlack;
-    [UINavigationBar appearance].tintColor = [UIColor whiteColor];
-    
-    [UITabBar appearance].tintColor = colorNavBackGround;
-}
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

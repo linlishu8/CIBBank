@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WRNavigationBar.h"
 
 @interface LWViewController : UIViewController
 

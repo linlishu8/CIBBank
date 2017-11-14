@@ -10,7 +10,6 @@
 #import "CIBHomePageViewModel.h"
 #import "CIBHomePageCollectionViewCell.h"
 #import "SDCycleScrollView.h"
-#import "WRNavigationBar.h"
 #import "CIBHomePageCollectionViewCell.h"
 #import "CIBMenuCollectionViewCell.h"
 
@@ -60,7 +59,7 @@
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"navigationItem_vrcode"] style:UIBarButtonItemStyleDone target:self action:nil];
     
     [self wr_setNavBarBackgroundAlpha:0];
-    [self wr_setNavBarShadowImageHidden:YES];
+    
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

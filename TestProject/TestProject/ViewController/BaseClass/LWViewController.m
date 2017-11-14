@@ -48,16 +48,17 @@
 //    self.extendedLayoutIncludesOpaqueBars = YES;
     [self.view setBackgroundColor:colorViewBackGround];
     
-//    UILabel *copyrightLabel = [UILabel label].normalColor(colorFont).normalFont(ECFont(12)).normalTextAlignment(NSTextAlignmentCenter);
-//    [self.view addSubview:copyrightLabel];
-//
-//    copyrightLabel.text = @"兴业银行版权所有 闽ICP备05017231";
-//
-//    [copyrightLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.bottom.equalTo(self.view).offset(-20);
-//        make.left.and.right.equalTo(self.view);
-//        make.height.mas_equalTo(HEIGHT_LFL(20));
-//    }];
+    if (self.viewModel.shouldLeftBarButtonItemCommand) {
+        UIButton *backButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        [backButton setImage:[UIImage imageNamed:@"button_narbarItem_back"] forState:UIControlStateNormal];
+        [backButton addTarget:self action:@selector(backToPrev) forControlEvents:UIControlEventTouchUpInside];
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:backButton];
+    }
+    [self wr_setNavBarShadowImageHidden:YES];
+}
+
+- (void)backToPrev {
+    [self.navigationController popViewControllerAnimated:YES];
 }
 
 - (void)bindViewModel {

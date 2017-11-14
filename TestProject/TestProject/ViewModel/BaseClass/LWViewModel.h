@@ -22,6 +22,7 @@
 @property (nonatomic, strong, readonly) RACSubject *errors;
 
 @property (nonatomic, assign) BOOL shouldRequestRemoteDataOnViewDidLoad;
+@property (nonatomic, assign) BOOL shouldLeftBarButtonItemCommand;//返回
 
 - (void)initialize;
 
