@@ -47,11 +47,21 @@
 //    self.automaticallyAdjustsScrollViewInsets = NO;
 //    self.extendedLayoutIncludesOpaqueBars = YES;
     [self.view setBackgroundColor:colorViewBackGround];
+    
+//    UILabel *copyrightLabel = [UILabel label].normalColor(colorFont).normalFont(ECFont(12)).normalTextAlignment(NSTextAlignmentCenter);
+//    [self.view addSubview:copyrightLabel];
+//
+//    copyrightLabel.text = @"兴业银行版权所有 闽ICP备05017231";
+//
+//    [copyrightLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+//        make.bottom.equalTo(self.view).offset(-20);
+//        make.left.and.right.equalTo(self.view);
+//        make.height.mas_equalTo(HEIGHT_LFL(20));
+//    }];
 }
 
 - (void)bindViewModel {
     [self.viewModel.errors subscribeNext:^(LWError *error) {
-        MRCLogError(error);
         if ([error.domain isEqualToString:@"暂无数据"]) {
             return;
         }

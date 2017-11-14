@@ -9,6 +9,18 @@
 #ifndef LWMacro_h
 #define LWMacro_h
 
+///------------
+/// AppDelegate
+///------------
+
+#define LWSharedAppDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
+
+///------
+/// FontSize
+///------
+
+#define ECFont(x) [UIFont systemFontOfSize:HEIGHT_LFL(x)]
+#define ECBoldFont(x) [UIFont boldSystemFontOfSize:HEIGHT_LFL(x)]
 
 //NSLog
 #ifdef DEBUG
@@ -16,6 +28,12 @@
 #else
 #define NSLog(...)
 #endif
+
+///------
+/// Block
+///------
+
+typedef void (^VoidBlock)();
 
 //APP版本号
 #define KAPP_VERSION [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
@@ -105,14 +123,20 @@
 #endif
 
 //颜色
-#define KRGB_COLOR(r, g, b)     [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
-#define KRGBA_COLOR(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(r)/255.0 blue:(r)/255.0 alpha:a]
-#define KRANDOM_COLOR           KRGB_COLOR(arc4random_uniform(256),arc4random_uniform(256),arc4random_uniform(256))
+#define RGB(r, g, b) [UIColor colorWithRed:((r) / 255.0) green:((g) / 255.0) blue:((b) / 255.0) alpha:1.0]
+#define RGBAlpha(r, g, b, a) [UIColor colorWithRed:((r) / 255.0) green:((g) / 255.0) blue:((b) / 255.0) alpha:(a)]
 
-#define KCOLOR_WITH_HEX(rgbValue) \
-[UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16)) / 255.0 \
-green:((float)((rgbValue & 0xFF00) >> 8)) / 255.0 \
-blue:((float)(rgbValue & 0xFF)) / 255.0 alpha:1.0]
+#define HexRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define HexRGBAlpha(rgbValue, a) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:(a)]
+
+#define colorNavBackGround HexRGB(0x2a88de) //蓝色
+#define colorButtonEnable HexRGB(0x82b2de) //淡一点的蓝色
+#define colorViewBackGround HexRGB(0xe5eaee) //灰色
+#define colorViewBorder HexRGB(0xcbd0db) //边框颜色（灰色）
+#define colorFont HexRGB(0x444444) //灰色文字
+#define colorViewTableView HexRGB(0xefeff4) //表格背景
+#define colorViewTableHead HexRGB(0xf9f9f9) // 表头背景
+#define colorIgnore HexRGB(0xe84c3d) //忽略按钮 红色
 
 //弱引用/强引用
 #define KWEAK_SELF(type)   __weak typeof(type) weak##type = type;

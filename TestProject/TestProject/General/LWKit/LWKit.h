@@ -23,7 +23,7 @@
 #import "UIImage+LWImage.h"
 #import "UIImageView+LWImageView.h"
 #import "UILabel+LWLabel.h"
-#import "UINavigationController+LWNavigationController.h"
+#import "UINavigationController+LWNavigationControllerViewController.h"
 #import "UIScrollView+LWScrollView.h"
 #import "UITableView+LWTableView.h"
 #import "UIView+LWView.h"

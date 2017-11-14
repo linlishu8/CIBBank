@@ -10,7 +10,7 @@
 
 typedef void (^UIImageSizeRequestCompleted) (NSURL* imgURL, CGSize size);
 
-@interface UIImage (WHImage)
+@interface UIImage (LWImage)
 
 //截屏
 +(instancetype)lw_snapshotCurrentScreen;

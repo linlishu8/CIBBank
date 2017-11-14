@@ -15,6 +15,11 @@
     [super initialize];
     
     self.shouldCellSeparatorStyleNone = YES;
+    
+    self.didSelectCommand = [[RACCommand alloc] initWithSignalBlock:^RACSignal * (NSIndexPath *indexPath) {
+        NSLog(@"11");
+        return [RACSignal empty];
+    }];
 }
 
 @end

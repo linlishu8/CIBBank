@@ -6,7 +6,7 @@
 //  Copyright © 2017年 LiuweiChina. All rights reserved.
 //
 
-#import "UIImage+WHImage.h"
+#import "UIImage+LWImage.h"
 #import <Accelerate/Accelerate.h>
 #import <ImageIO/ImageIO.h>
 #import <objc/runtime.h>
@@ -24,7 +24,7 @@
 //由弧度转换角度
 #define kRadianToDegrees(radian) (radian * 180.0) / (M_PI)
 
-@implementation UIImage (WHImage)
+@implementation UIImage (LWImage)
 
 //高效添加圆角图片
 - (UIImage *)lw_imageAddCornerWithRadius:(CGFloat)radius andSize:(CGSize)size {

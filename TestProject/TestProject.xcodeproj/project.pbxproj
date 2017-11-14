@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18036BF01FB97F4C007B67B4 /* CIBHomePageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18036BEF1FB97F4C007B67B4 /* CIBHomePageCollectionViewCell.m */; };
+		18036BF31FB98199007B67B4 /* CIBMenuCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18036BF21FB98199007B67B4 /* CIBMenuCollectionViewCell.m */; };
 		1819EF961FB2DD34001C6048 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1819EF951FB2DD34001C6048 /* AppDelegate.m */; };
 		1819EF9E1FB2DD34001C6048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1819EF9D1FB2DD34001C6048 /* Assets.xcassets */; };
 		18B375D01FB2E334005A4969 /* CALayer+LWLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375961FB2E333005A4969 /* CALayer+LWLayer.m */; };
@@ -25,7 +27,7 @@
 		18B375DD1FB2E334005A4969 /* UIButton+LWButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375B41FB2E333005A4969 /* UIButton+LWButton.m */; };
 		18B375DE1FB2E334005A4969 /* UIColor+LWColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375B61FB2E333005A4969 /* UIColor+LWColor.m */; };
 		18B375DF1FB2E334005A4969 /* UIDevice+LWDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375B81FB2E333005A4969 /* UIDevice+LWDevice.m */; };
-		18B375E01FB2E334005A4969 /* UIImage+WHImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375BA1FB2E333005A4969 /* UIImage+WHImage.m */; };
+		18B375E01FB2E334005A4969 /* UIImage+LWImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375BA1FB2E333005A4969 /* UIImage+LWImage.m */; };
 		18B375E11FB2E334005A4969 /* UIImageView+LWImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375BC1FB2E333005A4969 /* UIImageView+LWImageView.m */; };
 		18B375E21FB2E334005A4969 /* UILabel+LWLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375BE1FB2E333005A4969 /* UILabel+LWLabel.m */; };
 		18B375E31FB2E334005A4969 /* UINavigationController+LWNavigationControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B375C01FB2E333005A4969 /* UINavigationController+LWNavigationControllerViewController.m */; };
@@ -61,6 +63,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18036BE71FB975F9007B67B4 /* LWReactiveView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWReactiveView.h; sourceTree = "<group>"; };
+		18036BEE1FB97F4C007B67B4 /* CIBHomePageCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CIBHomePageCollectionViewCell.h; path = TestProject/View/TableViewCell/CIBHomePageCollectionViewCell.h; sourceTree = SOURCE_ROOT; };
+		18036BEF1FB97F4C007B67B4 /* CIBHomePageCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CIBHomePageCollectionViewCell.m; path = TestProject/View/TableViewCell/CIBHomePageCollectionViewCell.m; sourceTree = SOURCE_ROOT; };
+		18036BF11FB98199007B67B4 /* CIBMenuCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CIBMenuCollectionViewCell.h; sourceTree = "<group>"; };
+		18036BF21FB98199007B67B4 /* CIBMenuCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CIBMenuCollectionViewCell.m; sourceTree = "<group>"; };
 		1819EF911FB2DD34001C6048 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1819EF941FB2DD34001C6048 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1819EF951FB2DD34001C6048 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -102,8 +109,8 @@
 		18B375B61FB2E333005A4969 /* UIColor+LWColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LWColor.m"; sourceTree = "<group>"; };
 		18B375B71FB2E333005A4969 /* UIDevice+LWDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+LWDevice.h"; sourceTree = "<group>"; };
 		18B375B81FB2E333005A4969 /* UIDevice+LWDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+LWDevice.m"; sourceTree = "<group>"; };
-		18B375B91FB2E333005A4969 /* UIImage+WHImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+WHImage.h"; sourceTree = "<group>"; };
-		18B375BA1FB2E333005A4969 /* UIImage+WHImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+WHImage.m"; sourceTree = "<group>"; };
+		18B375B91FB2E333005A4969 /* UIImage+LWImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LWImage.h"; sourceTree = "<group>"; };
+		18B375BA1FB2E333005A4969 /* UIImage+LWImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LWImage.m"; sourceTree = "<group>"; };
 		18B375BB1FB2E333005A4969 /* UIImageView+LWImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+LWImageView.h"; sourceTree = "<group>"; };
 		18B375BC1FB2E333005A4969 /* UIImageView+LWImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+LWImageView.m"; sourceTree = "<group>"; };
 		18B375BD1FB2E333005A4969 /* UILabel+LWLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LWLabel.h"; sourceTree = "<group>"; };
@@ -120,7 +127,6 @@
 		18B375C81FB2E333005A4969 /* UIView+LWView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LWView.m"; sourceTree = "<group>"; };
 		18B375C91FB2E333005A4969 /* UIViewController+LWVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LWVC.h"; sourceTree = "<group>"; };
 		18B375CA1FB2E333005A4969 /* UIViewController+LWVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LWVC.m"; sourceTree = "<group>"; };
-		18B375E91FB2E375005A4969 /* ECMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECMacro.h; sourceTree = "<group>"; };
 		18B375ED1FB2E644005A4969 /* TestProject-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestProject-Prefix.pch"; sourceTree = "<group>"; };
 		18B375EE1FB2E644005A4969 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18B375F11FB2E7AD005A4969 /* LWViewModelServicesImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWViewModelServicesImpl.h; sourceTree = "<group>"; };
@@ -192,6 +198,17 @@
 				9724C0170EFECF56BB5217F3 /* Pods_TestProject.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18036BE01FB9730B007B67B4 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				18036BEE1FB97F4C007B67B4 /* CIBHomePageCollectionViewCell.h */,
+				18036BEF1FB97F4C007B67B4 /* CIBHomePageCollectionViewCell.m */,
+				18036BF11FB98199007B67B4 /* CIBMenuCollectionViewCell.h */,
+				18036BF21FB98199007B67B4 /* CIBMenuCollectionViewCell.m */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 		1819EF881FB2DD34001C6048 = {
@@ -298,8 +315,8 @@
 				18B375B61FB2E333005A4969 /* UIColor+LWColor.m */,
 				18B375B71FB2E333005A4969 /* UIDevice+LWDevice.h */,
 				18B375B81FB2E333005A4969 /* UIDevice+LWDevice.m */,
-				18B375B91FB2E333005A4969 /* UIImage+WHImage.h */,
-				18B375BA1FB2E333005A4969 /* UIImage+WHImage.m */,
+				18B375B91FB2E333005A4969 /* UIImage+LWImage.h */,
+				18B375BA1FB2E333005A4969 /* UIImage+LWImage.m */,
 				18B375BB1FB2E333005A4969 /* UIImageView+LWImageView.h */,
 				18B375BC1FB2E333005A4969 /* UIImageView+LWImageView.m */,
 				18B375BD1FB2E333005A4969 /* UILabel+LWLabel.h */,
@@ -323,7 +340,6 @@
 		18B375CB1FB2E333005A4969 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
-				18B375E91FB2E375005A4969 /* ECMacro.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -356,6 +372,7 @@
 		18B375CE1FB2E334005A4969 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				18036BE01FB9730B007B67B4 /* TableViewCell */,
 				18BBC6FB1FB43B2A0029A754 /* LWTabBar.h */,
 				18BBC6FC1FB43B2A0029A754 /* LWTabBar.m */,
 			);
@@ -410,6 +427,7 @@
 				18E436161FB2F70E002CDDCA /* LWError.m */,
 				18E4360C1FB2F457002CDDCA /* LWRouter.h */,
 				18E4360D1FB2F457002CDDCA /* LWRouter.m */,
+				18036BE71FB975F9007B67B4 /* LWReactiveView.h */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -552,7 +570,7 @@
 				18B375D91FB2E334005A4969 /* NSString+LWString.m in Sources */,
 				18B375D01FB2E334005A4969 /* CALayer+LWLayer.m in Sources */,
 				18B375D41FB2E334005A4969 /* NSDictionary+LWDictionary.m in Sources */,
-				18B375E01FB2E334005A4969 /* UIImage+WHImage.m in Sources */,
+				18B375E01FB2E334005A4969 /* UIImage+LWImage.m in Sources */,
 				18BBC6F11FB4317A0029A754 /* CIBWalletViewController.m in Sources */,
 				18BBC6D91FB42F590029A754 /* CIBHomePageViewController.m in Sources */,
 				18BBC6F41FB4318E0029A754 /* CIBAccountViewController.m in Sources */,
@@ -573,6 +591,7 @@
 				18B375F31FB2E7AD005A4969 /* LWViewModelServicesImpl.m in Sources */,
 				18BBC6CD1FB3F76C0029A754 /* CIBTabBarController.m in Sources */,
 				1819EF961FB2DD34001C6048 /* AppDelegate.m in Sources */,
+				18036BF31FB98199007B67B4 /* CIBMenuCollectionViewCell.m in Sources */,
 				18B375DF1FB2E334005A4969 /* UIDevice+LWDevice.m in Sources */,
 				18E436111FB2F503002CDDCA /* LWViewController.m in Sources */,
 				18BBC6D31FB42AE00029A754 /* LWTableViewController.m in Sources */,
@@ -584,6 +603,7 @@
 				18E436141FB2F5AC002CDDCA /* LWNavigationController.m in Sources */,
 				18B375D51FB2E334005A4969 /* NSFileManager+LWFileManager.m in Sources */,
 				18B375D21FB2E334005A4969 /* NSArray+LWArray.m in Sources */,
+				18036BF01FB97F4C007B67B4 /* CIBHomePageCollectionViewCell.m in Sources */,
 				18E436171FB2F70E002CDDCA /* LWError.m in Sources */,
 				18B375D61FB2E334005A4969 /* NSNumber+LWNumber.m in Sources */,
 				18BBC6F71FB431C80029A754 /* CIBWalletViewModel.m in Sources */,

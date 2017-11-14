@@ -69,9 +69,10 @@
         UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
         [tableView setDelegate:self];
         [tableView setDataSource:self];
+        tableView.showsVerticalScrollIndicator = NO;
         tableView.emptyDataSetSource = self;
         tableView.emptyDataSetDelegate = self;
-        
+        [tableView setBackgroundColor:[UIColor clearColor]];
         tableView;
     });
     

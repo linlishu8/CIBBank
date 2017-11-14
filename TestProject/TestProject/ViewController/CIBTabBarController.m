@@ -49,14 +49,14 @@
     [self.tabBarController addChildViewController:walletNavigationController];
     [self.tabBarController addChildViewController:accountNavigationController];
     
-    [ECSharedAppDelegate.navigationControllerStack pushNavigationController:homePageNavigationController];
+    [LWSharedAppDelegate.navigationControllerStack pushNavigationController:homePageNavigationController];
     
     [[self
       rac_signalForSelector:@selector(tabBarController:didSelectViewController:)
       fromProtocol:@protocol(UITabBarControllerDelegate)]
      subscribeNext:^(RACTuple *tuple) {
-         [ECSharedAppDelegate.navigationControllerStack popNavigationController];
-         [ECSharedAppDelegate.navigationControllerStack pushNavigationController:tuple.second];
+         [LWSharedAppDelegate.navigationControllerStack popNavigationController];
+         [LWSharedAppDelegate.navigationControllerStack pushNavigationController:tuple.second];
      }];
     
     self.tabBarController.delegate = self;

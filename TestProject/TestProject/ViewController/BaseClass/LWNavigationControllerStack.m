@@ -110,7 +110,7 @@
              viewController = [[LWNavigationController alloc] initWithRootViewController:viewController];
              [self pushNavigationController:(UINavigationController *)viewController];
          }
-         ECSharedAppDelegate.window.rootViewController = viewController;
+         LWSharedAppDelegate.window.rootViewController = viewController;
      }];
 }
 
