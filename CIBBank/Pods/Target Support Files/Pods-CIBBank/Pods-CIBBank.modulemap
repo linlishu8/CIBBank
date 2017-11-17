@@ -1,0 +1,6 @@
+framework module Pods_CIBBank {
+  umbrella header "Pods-CIBBank-umbrella.h"
+
+  export *
+  module * { export * }
+}
