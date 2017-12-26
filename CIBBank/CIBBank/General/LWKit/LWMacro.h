@@ -134,7 +134,7 @@ typedef void (^VoidBlock)();
 
 #define colorNavBackGround HexRGB(0x2a88de) //蓝色
 #define colorButtonEnable HexRGB(0x82b2de) //淡一点的蓝色
-#define colorViewBackGround HexRGB(0xe5eaee) //灰色
+#define colorViewBackGround HexRGB(0xf0f2f5) //灰色
 #define colorViewBorder HexRGB(0xcbd0db) //边框颜色（灰色）
 #define colorFont HexRGB(0x444444) //灰色文字
 #define colorViewTableView HexRGB(0xefeff4) //表格背景

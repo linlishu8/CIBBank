@@ -16,6 +16,7 @@ target ‘CIBBank’ do
     pod 'Reachability'
     pod 'SDCycleScrollView'
     pod 'UITableView+FDTemplateLayoutCell'
+    pod 'WRNavigationBar'
     
 end
 

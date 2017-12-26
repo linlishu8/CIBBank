@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'ECBBEFBF601B88C0A6252A82AEA72A53'
+               BlueprintIdentifier = '78896F41F9C4CCBF3ABD24544724C88B'
                BlueprintName = 'ScreenCompatible_LFL'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'ScreenCompatible_LFL.framework'>

@@ -32,18 +32,22 @@
     });
 
     UINavigationController *supermarketNavigationController = ({
-        [self navigationControllerWithView:[[CIBSupermarketViewController alloc] initWithViewModel:self.viewModel.supermarketViewModel] WithTitle:@"金融超市" imageName:@"tab_icon_Supermarket" selectedImageName:@"tab_icon_Supermarket_selected"];
+        [self navigationControllerWithView:[[CIBSupermarketViewController alloc] initWithViewModel:self.viewModel.supermarketViewModel] WithTitle:@"兴社区" imageName:@"tab_icon_Supermarket" selectedImageName:@"tab_icon_Supermarket_selected"];
     });
 
     UINavigationController *walletNavigationController = ({
-        [self navigationControllerWithView:[[CIBWalletViewController alloc] initWithViewModel:self.viewModel.walletViewModel] WithTitle:@"掌柜钱包" imageName:@"tab_icon_wallet" selectedImageName:@"tab_icon_wallet_selected"];
+        [self navigationControllerWithView:[[CIBWalletViewController alloc] initWithViewModel:self.viewModel.walletViewModel] WithTitle:@"金融资讯" imageName:@"tab_icon_wallet" selectedImageName:@"tab_icon_wallet_selected"];
     });
 
     UINavigationController *accountNavigationController = ({
-        [self navigationControllerWithView:[[CIBAccountViewController alloc] initWithViewModel:self.viewModel.accountViewModel] WithTitle:@"我的账户" imageName:@"tab_icon_account" selectedImageName:@"tab_icon_account_selected"];
+        [self navigationControllerWithView:[[CIBAccountViewController alloc] initWithViewModel:self.viewModel.accountViewModel] WithTitle:@"直销银行" imageName:@"tab_icon_account" selectedImageName:@"tab_icon_account_selected"];
     });
     
-    self.viewControllers = @[homePageNavigationController, supermarketNavigationController, walletNavigationController, accountNavigationController];
+    UINavigationController *shopNavigationController = ({
+        [self navigationControllerWithView:[[CIBAccountViewController alloc] initWithViewModel:self.viewModel.accountViewModel] WithTitle:@"生活商城" imageName:@"frm000_shsc" selectedImageName:@"frm000_shsc_in"];
+    });
+    
+    self.viewControllers = @[homePageNavigationController, supermarketNavigationController, walletNavigationController, accountNavigationController, shopNavigationController];
     
     [LWSharedAppDelegate.navigationControllerStack pushNavigationController:homePageNavigationController];
     

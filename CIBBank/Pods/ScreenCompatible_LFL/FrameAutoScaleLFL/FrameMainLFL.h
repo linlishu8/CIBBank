@@ -23,11 +23,11 @@
 /**
  RealUISrceenH 4/4s 修改480 5/5s 568  6/6s 667  6p/6sp 736
  */
-static const float  RealUISrceenHight =  736;
+static const float  RealUISrceenHight =  667;
 /**
  RealUISrceenW  4/4s 5/5s 320  6/6s 375  6p/6sp 414
  */
-static const float RealUISrceenWidth = 414;
+static const float RealUISrceenWidth = 375;
 
 #import "FrameAutoScaleLFL.h"
 #pragma mark 一系列宏定义,快速设置frame等

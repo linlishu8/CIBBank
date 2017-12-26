@@ -115,4 +115,6 @@ typedef void (^UIImageSizeRequestCompleted) (NSURL* imgURL, CGSize size);
 
 - (UIImage *)maskImageFromImageAlpha;
 
+- (UIImage *)lw_updateImageWithTintColor:(UIColor*)color alpha:(CGFloat)alpha;
+
 @end

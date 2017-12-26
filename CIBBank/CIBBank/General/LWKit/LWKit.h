@@ -33,6 +33,7 @@
 #import "LWSingleton.h"
 #import "CALayer+LWLayer.h"
 #import "UIAlertController+LWAlert.h"
+#import "WRNavigationBar.h"
 
 /******************************/
 

@@ -58,16 +58,16 @@
 }
 
 
-- (BOOL)shouldAutorotate {
-    return self.topViewController.shouldAutorotate;
-}
+//- (BOOL)shouldAutorotate {
+//    return self.topViewController.shouldAutorotate;
+//}
+//
+//- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
+//    return self.topViewController.supportedInterfaceOrientations;
+//}
 
-- (UIInterfaceOrientationMask)supportedInterfaceOrientations {
-    return self.topViewController.supportedInterfaceOrientations;
-}
-
-- (UIStatusBarStyle)preferredStatusBarStyle {
-    return self.topViewController.preferredStatusBarStyle;
-}
+//- (UIStatusBarStyle)preferredStatusBarStyle {
+//    return self.topViewController.preferredStatusBarStyle;
+//}
 
 @end

@@ -8,6 +8,6 @@
 
 #import "LWTableViewController.h"
 
-@interface CIBHomePageViewController : LWTableViewController
+@interface CIBHomePageViewController : LWViewController
 
 @end
